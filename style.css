@@ -157,7 +157,7 @@ header .row ul li {
 }
 
 .main-visual {
-  background: url("img/top.jpg");
+  background: url("top.jpg");
   background-size: cover;
   background-position: center;
   height: 1000px;
@@ -347,13 +347,14 @@ h3 {
 }
 .top-btn button {
   display: inline-block;
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
   /*border: solid 1px black;*/
   border: none;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  /*background-color: transparent;*/
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -365,7 +366,7 @@ h3 {
 }
 
 .contact {
-  background: url("img/contact.jpg");
+  background: url("contact.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -404,9 +405,9 @@ h3 {
 .main-visual__content p,
 .about__content p,
 h2 {
-  transform: translateY(30px);
+  transform: translateY(10px);
   opacity: 0;
-  transition: all 1s;
+  transition: all 1.5s;
 }
 .main-visual__content h1 {
   transition-delay: 0.3s;

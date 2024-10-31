@@ -8,16 +8,11 @@ function callback(entries, observer) {
   });
 }
 const options = {
-  threshold: 0,
-  rootMargin: "-200px",
+  threshold: 0.5,
 };
 const myObserver = new IntersectionObserver(callback, options);
 objectList.forEach((targetObject) => {
   myObserver.observe(targetObject);
 });
 
-function altRan2() {
-	var r = Math.floor(Math.random() * 6) +1; //乱数の発生
 
-  document.getElementById("sai").innerHTML = r; //値の出力
-}

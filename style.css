@@ -489,3 +489,11 @@ h3 {
 }
 
 /* アニメーションCSS */
+.main-visual__content h1,
+.main-visual__content p,
+.about__content p,
+h2 {
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 1.5s;
+}

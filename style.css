@@ -175,6 +175,11 @@ header .row ul li {
   left: 0;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .main-visual .main-visual__content {
+    top: 130px;
+  }
+}
 @media (min-width: 768px) {
   .main-visual .main-visual__content {
     text-align: right;
@@ -189,13 +194,11 @@ header .row ul li {
 @media (max-width: 480px) {
   .main-visual .main-visual__content h1 {
     margin-bottom: 120px;
+    line-height: 50px;
+    font-size: 18px;
   }
-}
-@media (max-width: 480px) {
   .main-visual .main-visual__content h1 span {
     display: block;
-    line-height: 150px;
-    font-size: 15px;
   }
 }
 .main-visual .main-visual__content p {
@@ -214,6 +217,14 @@ header .row ul li {
   margin: 50px;
   padding: 50px 30px;
   color: black;
+}
+@media (max-width: 480px) {
+  .main-visual .about__content p {
+    border: none;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin: 50px 30px;
+  }
 }
 
 .container {

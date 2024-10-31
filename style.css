@@ -163,6 +163,11 @@ header .row ul li {
   height: 1000px;
   position: relative;
 }
+@media (max-width: 480px) {
+  .main-visual {
+    height: 1200px;
+  }
+}
 .main-visual .main-visual__content {
   position: absolute;
   top: 200px;
@@ -176,9 +181,22 @@ header .row ul li {
     margin-right: 180px;
   }
 }
+
 .main-visual .main-visual__content h1 {
   margin-bottom: 200px;
   color: black;
+}
+@media (max-width: 480px) {
+  .main-visual .main-visual__content h1 {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .main-visual .main-visual__content h1 span {
+    display: block;
+    line-height: 150px;
+    font-size: 15px;
+  }
 }
 .main-visual .main-visual__content p {
   font-weight: bold;
@@ -236,6 +254,12 @@ h3 {
 .morning-item dl dd {
   text-align: center;
   padding: 0 20px;
+}
+@media (max-width: 480px) {
+  .morning-item dl dt .img img {
+    height: 200px;
+    width: auto;
+}
 }
 
 @media (min-width: 1180px) {
@@ -327,6 +351,11 @@ h3 {
   height: 200px;
   background-color: rgba(255, 255, 255, 0.7);
   border: solid 1px black;
+}
+@media (max-width: 480px) {
+  .item .contact-form ul li input {
+    width: 250px;
+  }
 }
 .item .btn {
   /*display: inline-block;

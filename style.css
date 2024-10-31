@@ -427,6 +427,12 @@ h3 {
   border-top: solid 1px black;
   padding: 0 40px;
 }
+@media (max-width: 480px) {
+  .footer-list {
+    display: block;
+    text-align: center;
+  }
+}
 @media (min-width: 1180px) {
   .footer-list {
     padding: 0 200px;
